@@ -1,0 +1,475 @@
+/*
+We add some padding to accomodate the fixed navbar
+*/
+/*body {*/
+    /*!*padding-top: 20px;*!*/
+/*}*/
+
+/*
+We want the navbar to blend in the body
+So we use the same background
+*/
+/*.navbar-default{*/
+    /*background-image: none;*/
+    /*background-color: #ffffff;*/
+    /*margin-bottom: 0px;*/
+/*}*/
+
+/*
+Make the Text Orange on the Home Page Navbar when you hover
+*/
+/*.navbar-default .brand, .navbar-default .nav > li > a:hover {*/
+    /*color: #F5298E;*/
+/*}*/
+
+/*
+CSS for Displaying the ICON Correctly
+*/
+/*.navbar-brand{*/
+    /*padding-bottom: 0px;*/
+    /*padding-top: 0px;*/
+/*}*/
+
+/*
+Add some additonal top margin for the footer
+*/
+.footer{
+    padding-top: 40px;
+    border: none;
+}
+
+body {
+    padding-top: 70px;
+}
+
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar{
+    border-radius: 0px;
+    /*margin-bottom: 40px;*/
+}
+
+.navbar-search-box{
+    -webkit-appearance: none;
+    -webkit-font-smoothing: antialiased;
+    -webkit-rtl-ordering: logical;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-user-select: text;
+    background-attachment: scroll;
+    background-clip: border-box;
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    background-origin: padding-box;
+    background-size: auto;
+    border-bottom-color: rgba(0, 0, 0, 0.14902);
+    border-bottom-left-radius: 13986px;
+    border-bottom-right-radius: 13986px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    border-image-outset: 0px;
+    border-image-repeat: stretch;
+    border-image-slice: 100%;
+    border-image-source: none;
+    border-image-width: 1;
+    border-left-color: rgba(0, 0, 0, 0.14902);
+    border-left-style: solid;
+    border-left-width: 1px;
+    border-right-color: rgba(0, 0, 0, 0.14902);
+    border-right-style: solid;
+    border-right-width: 1px;
+    border-top-color: rgba(0, 0, 0, 0.14902);
+    border-top-left-radius: 13986px;
+    border-top-right-radius: 13986px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    box-sizing: border-box;
+    color: rgba(0, 0, 0, 0.8);
+    cursor: auto;
+    display: inline-block;
+    font-family: -apple-system, '.SFNSText-Regular', 'Helvetica Neue', Roboto, 'Segoe UI', sans-serif;
+    font-size: 14px;
+    font-stretch: normal;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    height: 46px;
+    letter-spacing: normal;
+    line-height: normal;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    outline-color: rgba(0, 0, 0, 0.8);
+    outline-style: none;
+    outline-width: 0px;
+    padding-bottom: 6px;
+    padding-left: 36px;
+    padding-right: 15px;
+    padding-top: 6px;
+    text-align: start;
+    text-indent: 0px;
+    text-rendering: auto;
+    text-shadow: none;
+    text-transform: none;
+    vertical-align: middle;
+    visibility: visible;
+    white-space: nowrap;
+    width: 201px;
+    word-spacing: 0px;
+    writing-mode: lr-tb;
+    -webkit-writing-mode: horizontal-tb;
+}
+.left-inner-addon-navbar-search-box {
+    position: relative;
+}
+.left-inner-addon-navbar-search-box input {
+    padding-left: 36px;
+}
+.left-inner-addon-navbar-search-box span {
+    position: absolute;
+    padding: 15px 12px;
+    pointer-events: none;
+    vertical-align: middle;
+}
+
+
+
+.left-inner-addon-index-search-box {
+    position: relative;
+}
+.left-inner-addon-index-search-box input {
+    padding-left: 60px;
+}
+.left-inner-addon-index-search-box span {
+    position: absolute;
+    padding: 25px 12px;
+    font-size: 40px;
+    pointer-events: none;
+    vertical-align: middle;
+}
+.searchbox{
+    background-color: #F7F7F7;
+    border: solid 2px #F7F7F7;
+    padding: 3px 18px 3px 50px;
+    border-radius: 0;
+    height: 102px;
+    font-size: 20px;
+    display: block;
+    width: 100%;
+    color: #555;
+    line-height: 1.42857143;
+}
+.searchbox:focus{
+    outline-width: 0;
+}
+
+
+.vertical-navbar{
+    padding-top: 20px;
+    border-image: none;
+    border-image-width: 0px;
+    outline-width: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+}
+.vertical-navbar-item,.vertical-navbar-item:last-child,.vertical-navbar-item:first-child,.vertical-navbar-item:hover{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-image: none;
+    border-image-width: 0px;
+    outline-width: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+
+}
+.vertical-navbar-item.is-active{
+    color: black;
+    font-weight: 600;
+}
+a.list-group-item:hover{
+    background-color: white;
+}
+
+
+
+
+.btn-primary-action,.btn-primary-action:hover{
+    background-image: none;
+    background-color: white;
+    border-radius: 5000px;
+    box-shadow: none;
+    line-height: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: 'Raleway';
+    color: #F5298E;
+    border-color: #F5298E;
+    text-shadow: none;
+}
+.btn-primary-action.completed{
+    background-image: none;
+    background-color: #F5298E;
+    border-radius: 5000px;
+    box-shadow: none;
+    line-height: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: 'Raleway';
+    color: white;
+    border-color: #F5298E;
+    text-shadow: none;
+}
+
+
+.btn-secondary-action,.btn-secondary-action:hover{
+    background-image: none;
+    background-color: white;
+    border-radius: 5000px;
+    box-shadow: none;
+    line-height: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: 'Raleway';
+    color: rgba(0, 0, 0, 0.509804);
+    border-color: rgba(0, 0, 0, 0.235294);
+    text-shadow: none;
+}
+.btn-secondary-action.completed{
+    background-image: none;
+    background-color: white;
+    border-radius: 99999px;
+    box-shadow: none;
+    line-height: 32px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-family: 'Raleway';
+    color: rgba(0, 0, 0, 1);
+    border-color: rgba(0, 0, 0, 1);
+    text-shadow: none;
+}
+
+
+
+/*
+CSS for Displaying a List of Questions
+*/
+
+.title_listjs{
+    font-family: 'Lato', sans-serif;
+    color: #333333;
+    /*font-weight: 700;*/
+}
+.description{
+    padding-top: 10px;
+    padding-bottom: 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    line-height: 17px;        /* fallback */
+    max-height: 46px;       /* fallback */
+    font-family: 'Lato', sans-serif;
+    font-size: 14px;
+    color: #5e5e5e;
+}
+.actions>*{
+    padding-right: 10px;
+    font-size: 16px;
+    line-height: 2.5;
+}
+
+.badge{
+    font-weight: 400;
+    color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.05);
+}
+.tag {
+    color: rgba(0,0,0,0.6);
+    background-color: rgba(0,0,0,0.05);
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 400;
+    font-size: 13px;
+}
+.primary-link-color:link{
+    color: #F5298E;
+}
+.primary-link-color:visited{
+    color: #F5298E;
+}
+.primary-link-color{
+    color: #F5298E;
+}
+
+.secondary-link-color:link{
+    color: #7a7a7a;
+}
+.secondary-link-color:visited{
+    color: #7a7a7a;
+}
+.secondary-link-color{
+    color: #7a7a7a;
+}
+
+
+
+.pagination li a{
+    color: #F5298E;
+}
+.pagination li a:hover{
+    color: #F5298E;
+}
+.pagination .active span{
+    background-color: #F5298E;
+    border-color: #F5298E;
+}
+.pagination .active span:hover{
+    background-color: #F5298E;
+    border-color: #F5298E;
+}
+
+
+
+
+
+/*
+Flex Container (Used for Courses, User Account Page etc.)
+*/
+.flexcontainer {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-align-items: left;
+    align-items: left;
+    -webkit-justify-content: left;
+    justify-content: left;
+    /* You can set flex-wrap and flex-direction individually */
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    /* Or do it all in one line with flex flow */
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    /* tweak the where items line up on the row */
+    /* valid values are: flex-start, flex-end, space-between, space-around, stretch */
+    -webkit-align-content: flex-end;
+    align-content: flex-end;
+}
+
+
+.jumbotron {
+    background-color: #E0E0E0;
+    margin-top: -20px;
+}
+
+.btn-flat {
+    filter:progid:DXImageTransform.Microsoft.Gradient(enabled='false');
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    background-image:none;
+    border:0;
+}
+
+
+.btn{
+    font-family: -apple-system, '.SFNSText-Regular', 'Helvetica Neue', Roboto, 'Segoe UI', sans-serif;
+}
+
+.btn:hover{
+    font-family: -apple-system, '.SFNSText-Regular', 'Helvetica Neue', Roboto, 'Segoe UI', sans-serif;
+}
+
+
+#solution-editor{
+    width: 100%;
+    height: 500px;
+}
+
+#solution-editor *{
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+
+.solution-editor{
+    width: 100%;
+    height: 500px;
+}
+
+.solution-editor *{
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+
+
+
+/* SEARCH INPUT
+// ------------------------- */
+
+header {
+    position: relative;
+    height: 80px;
+    margin-top: 40px;
+}
+header img {
+    position: absolute;
+    top: 9px;
+    left: 0;
+    float: left;
+    max-width: 23%;
+}
+#search-input {
+    font-size: 28px;
+    font-weight: 100;
+    width: 100%;
+    /*margin-left: auto;*/
+    padding: 10px 0 6px;
+    border: none;
+    border-bottom: 5px solid #eee;
+}
+#search-input, #search-input:focus {
+    transition: border-color .3s ease-in;
+    outline: 0;
+}
+#search-input:focus {
+    border-color: #ed5565;
+}
+#search-input::-webkit-input-placeholder, #search-input:-moz-placeholder, #search-input:-moz-placeholder, #search-input:-ms-input-placeholder {
+    font-weight: 100;
+    color: #999;
+}
+#search-input-icon {
+    position: relative;
+}
+#search-input-icon:before {
+    position: absolute;
+    right: 0;
+    bottom: 15px;
+    width: 20px;
+    height: 20px;
+    content: '';
+    cursor: default;
+    background: url(../images/search_icon.png) no-repeat;
+}
+#search-input-icon.empty:before {
+    cursor: pointer;
+    background-image: url(../images/delete_icon.png);
+}
+
+.result_stats{
+    border-bottom: 2px solid #eee;
+    font-size: 24px;
+}
+
